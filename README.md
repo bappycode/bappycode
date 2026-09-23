@@ -31,7 +31,7 @@ I'm a full stack developer who specializes in tracking. I build the infrastructu
 
 - **Multi-tenant SaaS** — authentication, billing, plan management and per-tenant encrypted credentials
 - **Backend & APIs** — Node.js / TypeScript REST APIs, PostgreSQL with Prisma, Redis caching and queues
-- **Frontend** — React dashboards and embedded admin apps (Remix / React Router)
+- **Frontend** — React and Next.js dashboards, marketing sites and embedded admin apps (Remix / React Router)
 - **E-commerce integrations** — Shopify apps, WooCommerce plugins, Salla apps and platform billing APIs
 - **AI integrations** — MCP servers that connect LLMs to Google Ads, GA4 and internal data
 - **DevOps** — Linux VPS setup, Nginx, SSL, PM2, database backups and restores, Vercel CI/CD
@@ -68,6 +68,7 @@ I'm a full stack developer who specializes in tracking. I build the infrastructu
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
@@ -82,9 +83,13 @@ I'm a full stack developer who specializes in tracking. I build the infrastructu
 
 ### 📊 GitHub stats
 
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=bappycode&show_icons=true&hide_border=true&theme=transparent&cache_seconds=86400" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=bappycode&layout=compact&hide_border=true&theme=transparent&cache_seconds=86400" alt="Top languages"/>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=bappycode&show_icons=true&hide_border=true&theme=transparent&count_private=true&cache_seconds=86400" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=bappycode&layout=compact&langs_count=8&hide_border=true&theme=transparent&cache_seconds=86400" alt="Top languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=bappycode&hide_border=true&theme=transparent" alt="GitHub streak"/>
 </p>
 
 <p align="center"><i>Always happy to talk tracking — if your conversions don't match your orders, reach out.</i></p>
