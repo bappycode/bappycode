@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Khairul Islam Bappy</h1>
-<h3 align="center">Conversion Tracking Engineer · Server-side GTM · Builder of Tagify & AdsAI</h3>
+<h3 align="center">Full Stack Developer · Conversion Tracking Engineer · Builder of Tagify & AdsAI</h3>
 
 <p align="center">
   <a href="https://analystbappy.com"><img src="https://img.shields.io/badge/Website-analystbappy.com-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
@@ -9,7 +9,7 @@
   <!-- <a href="YOUR_FIVERR_URL"><img src="https://img.shields.io/badge/Fiverr-Hire%20me-1DBF73?style=flat-square&logo=fiverr&logoColor=white" alt="Fiverr"/></a> -->
 </p>
 
-I build the tracking infrastructure that makes ad platforms see what actually happened: server-side GTM, first-party data pipelines, and accurate conversion data for Google Ads, GA4, Meta, TikTok and Snapchat. I work with e-commerce brands in Greece and the MENA region, and I turn what I learn into SaaS products.
+I'm a full stack developer who specializes in tracking. I build the infrastructure that makes ad platforms see what actually happened: server-side GTM, first-party data pipelines, and accurate conversion data for Google Ads, GA4, Meta, TikTok and Snapchat. I work with e-commerce brands in Greece and the MENA region, and I design, build and run my own SaaS products end to end, from database to dashboard to deployment.
 
 ---
 
@@ -27,6 +27,17 @@ I build the tracking infrastructure that makes ad platforms see what actually ha
 
 ---
 
+### 💻 Full Stack Development
+
+- **Multi-tenant SaaS** — authentication, billing, plan management and per-tenant encrypted credentials
+- **Backend & APIs** — Node.js / TypeScript REST APIs, PostgreSQL with Prisma, Redis caching and queues
+- **Frontend** — React dashboards and embedded admin apps (Remix / React Router)
+- **E-commerce integrations** — Shopify apps, WooCommerce plugins, Salla apps and platform billing APIs
+- **AI integrations** — MCP servers that connect LLMs to Google Ads, GA4 and internal data
+- **DevOps** — Linux VPS setup, Nginx, SSL, PM2, database backups and restores, Vercel CI/CD
+
+---
+
 ### 🎯 What I can help with
 
 - Server-side tracking setup (sGTM on your own domain)
@@ -35,6 +46,7 @@ I build the tracking infrastructure that makes ad platforms see what actually ha
 - GA4 audits, e-commerce event implementation and data-layer design
 - Consent Mode v2 implementation
 - Custom tracking dashboards and reporting via Google Ads API / GA4 Data API
+- Full stack web apps, SaaS MVPs and e-commerce platform apps/plugins
 
 ---
 
