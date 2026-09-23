@@ -84,11 +84,6 @@ I'm a full stack developer who specializes in tracking. I build the infrastructu
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats-iota-black-77.vercel.app/api?username=bappycode&show_icons=true&hide_border=true&theme=transparent&count_private=true&cache_seconds=86400" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats-iota-black-77.vercel.app/api/top-langs?username=bappycode&layout=compact&langs_count=8&hide_border=true&theme=transparent&cache_seconds=86400" alt="Top languages"/>
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com?user=bappycode&hide_border=true&theme=transparent" alt="GitHub streak"/>
 </p>
 
