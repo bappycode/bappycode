@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Khairul Islam Bappy – Full stack developer and conversion tracking engineer" width="100%"/>
+</p>
+
 <h1 align="center">Hi 👋, I'm Khairul Islam Bappy</h1>
 <h3 align="center">Full Stack Developer · Conversion Tracking Engineer · Builder of Tagify & AdsAI</h3>
 
