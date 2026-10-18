@@ -1,94 +1,118 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Khairul Islam Bappy – Full stack developer and conversion tracking engineer" width="100%"/>
+  <img src="./assets/banner.png" alt="Khairul Islam Bappy – Full Stack Developer" width="100%"/>
 </p>
-
-<h1 align="center">Hi 👋, I'm Khairul Islam Bappy</h1>
-<h3 align="center">Full Stack Developer · Conversion Tracking Engineer · Builder of Tagify & AdsAI</h3>
 
 <p align="center">
-  <a href="https://analystbappy.com"><img src="https://img.shields.io/badge/Website-analystbappy.com-0A66C2?style=flat-square&logo=googlechrome&logoColor=white" alt="Website"/></a>
+  <a href="https://analystbappy.com"><img src="https://img.shields.io/badge/Portfolio-analystbappy.com-F5B83D?style=flat-square&logo=googlechrome&logoColor=black" alt="Portfolio"/></a>
   <a href="https://linkedin.com/in/khairul-islam-bappy"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:khairulislambappy95@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
-  <!-- Add your Fiverr gig link here -->
-  <!-- <a href="YOUR_FIVERR_URL"><img src="https://img.shields.io/badge/Fiverr-Hire%20me-1DBF73?style=flat-square&logo=fiverr&logoColor=white" alt="Fiverr"/></a> -->
 </p>
 
-I'm a full stack developer who specializes in tracking. I build the infrastructure that makes ad platforms see what actually happened: server-side GTM, first-party data pipelines, and accurate conversion data for Google Ads, GA4, Meta, TikTok and Snapchat. I work with e-commerce brands in Greece and the MENA region, and I design, build and run my own SaaS products end to end, from database to dashboard to deployment.
+## 👋 About me
+
+I'm a **Full Stack Developer** building web applications and SaaS products with **Next.js, React, Node.js, TypeScript and MongoDB**. I also bring **5+ years of experience in conversion tracking and analytics infrastructure** for e-commerce and B2B businesses, so the apps I build ship with analytics, server-side tracking and ad platform integrations designed in from the start.
+
+- 🔨 Building SaaS products and web apps with **Next.js 16, React 19 and MongoDB**
+- 🔐 Authentication, protected routes, REST APIs, dashboards and real-time features
+- 📊 Analytics & tracking: GA4, Google Tag Manager, server-side tracking, Meta and Google Ads APIs
+- 📍 Khulna, Bangladesh · open to **Full Stack Developer** roles
 
 ---
 
-### 🚀 What I'm building
+## 🚀 Featured projects
 
-**[Tagify](https://tagify-brown.vercel.app)** — Server-side GTM, CDP and tracking infrastructure as a service
-- Managed sGTM containers with ad-block resilience and custom loaders
-- Google Consent Mode v2 with regional presets and a granular preference panel
-- Plugins for WooCommerce and the Salla App Store, with Shopify on the way
-- Tagify Analytics: multi-tenant extension with per-container encrypted credentials and MCP endpoints
+### Tagify · server-side tracking SaaS dashboard
+Marketing site and customer dashboard for a server-side tracking platform. Every new account gets a seeded demo workspace with a tracking gateway, 30 days of analytics, hosted containers and a live event stream.
 
-**AdsAI** — AI-powered Google Ads auditing and optimization
-- Built on Google Ads API v24
-- MCP server that lets Claude talk directly to Google Ads and GA4 data
+- **Authentication** with Better Auth: email/password, Google and GitHub OAuth, password reset
+- **Analytics dashboard** powered by MongoDB aggregation pipelines and Recharts
+- **Live events page** using Server-Sent Events
+- **Protected routes**, server-side session checks on every API route, and an admin role
+- Request validation with Zod, data fetching with TanStack Query
+
+`Next.js 16` `React 19` `TypeScript` `MongoDB` `Better Auth` `TanStack Query` `Tailwind CSS` `Radix UI` `Zod`
+<br/>🔗 [Code](https://github.com/bappycode/Tagify-Public)
+
+### Tagify Analytics · Google Ads & GA4 data for AI assistants *(private · in development)*
+Multi-tenant SaaS that connects a business's Google Ads and GA4 accounts and exposes the data through an **MCP server**, so any AI assistant that supports MCP can query live marketing data in plain language.
+
+- **Google Ads and GA4 connections** per workspace, with encrypted per-tenant credentials and an OAuth connection flow in progress
+- **Dynamic MCP endpoints**: each workspace gets its own endpoint that works in any MCP client
+- MCP tools for listing accounts and GA4 properties, campaign performance, GA4 summaries, custom GA4 reports and raw **GAQL** queries
+- Lets marketers ask questions like "which campaigns lost conversions this week?" and get answers from real account data
+
+`Node.js` `TypeScript` `Google Ads API` `GA4 Data API` `MCP` `OAuth` `Multi-tenant SaaS`
+
+### BazarDor · market price tracker for Bangladesh
+Web app for browsing and comparing everyday product prices across markets in Bangladesh.
+
+- Product browsing by category, search and sorting
+- Price comparison across markets with lowest-price highlighting
+- Daily price increase and decrease highlights
+- User sign-up, sign-in and profile with Better Auth and MongoDB
+- Loading states, custom 404 and fully responsive layout
+
+`Next.js` `React` `TypeScript` `MongoDB` `Better Auth` `Tailwind CSS` `REST API`
+<br/>🔗 [Code](https://github.com/bappycode/bazar-dor)
+
+### FitLog · workout library and daily planner
+Gym companion app for browsing workouts, planning the day and tracking totals.
+
+- Workout library from an API with skeleton loading and dynamic detail pages
+- Today's plan and saved list with the Context API, capped at five workouts
+- Dashboard with live exercise, minute and calorie totals, sorting and tabs
+- State persisted in localStorage, custom 404 and error pages
+
+`Next.js` `React` `Context API` `Tailwind CSS` `localStorage`
+<br/>🔗 [Code](https://github.com/bappycode/fit-log.me)
+
 
 ---
 
-### 💻 Full Stack Development
+## 🛠 Tech stack
 
-- **Multi-tenant SaaS** — authentication, billing, plan management and per-tenant encrypted credentials
-- **Backend & APIs** — Node.js / TypeScript REST APIs, PostgreSQL with Prisma, Redis caching and queues
-- **Frontend** — React and Next.js dashboards, marketing sites and embedded admin apps (Remix / React Router)
-- **E-commerce integrations** — Shopify apps, WooCommerce plugins, Salla apps and platform billing APIs
-- **AI integrations** — MCP servers that connect LLMs to Google Ads, GA4 and internal data
-- **DevOps** — Linux VPS setup, Nginx, SSL, PM2, database backups and restores, Vercel CI/CD
-
----
-
-### 🎯 What I can help with
-
-- Server-side tracking setup (sGTM on your own domain)
-- Meta Conversions API, TikTok Events API, Snapchat CAPI
-- Google Ads Enhanced Conversions and offline conversion imports
-- GA4 audits, e-commerce event implementation and data-layer design
-- Consent Mode v2 implementation
-- Custom tracking dashboards and reporting via Google Ads API / GA4 Data API
-- Full stack web apps, SaaS MVPs and e-commerce platform apps/plugins
-
----
-
-### 🛠 Tracking & Ads stack
-
+**Frontend**
 <p>
-  <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Server--side%20GTM-246FDB?style=flat-square&logo=googletagmanager&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Google%20Ads%20API-4285F4?style=flat-square&logo=googleads&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Meta%20CAPI-0467DF?style=flat-square&logo=meta&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TikTok%20Events%20API-000000?style=flat-square&logo=tiktok&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Snapchat%20CAPI-FFFC00?style=flat-square&logo=snapchat&logoColor=black"/>
-</p>
-
-### ⚙️ Build & ship stack
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+</p>
+
+**Backend & database**
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white"/>
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Better%20Auth-000000?style=flat-square&logo=auth0&logoColor=white"/>
+</p>
+
+**Deployment & tools**
+<p>
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Linux%20VPS-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+</p>
+
+**Analytics & tracking**
+<p>
+  <img src="https://img.shields.io/badge/Google%20Tag%20Manager-246FDB?style=flat-square&logo=googletagmanager&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GA4-E37400?style=flat-square&logo=googleanalytics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Google%20Ads%20API-4285F4?style=flat-square&logo=googleads&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Meta%20CAPI-0467DF?style=flat-square&logo=meta&logoColor=white"/>
 </p>
 
 ---
 
-### 📊 GitHub stats
+## 📊 GitHub activity
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=bappycode&hide_border=true&theme=transparent" alt="GitHub streak"/>
 </p>
-
-<p align="center"><i>Always happy to talk tracking — if your conversions don't match your orders, reach out.</i></p>
