@@ -19,7 +19,7 @@ I'm a full stack developer who specializes in tracking. I build the infrastructu
 
 ### 🚀 What I'm building
 
-**[Tagify](https://tagify.top)** — Server-side GTM, CDP and tracking infrastructure as a service
+**[Tagify](https://tagify-brown.vercel.app)** — Server-side GTM, CDP and tracking infrastructure as a service
 - Managed sGTM containers with ad-block resilience and custom loaders
 - Google Consent Mode v2 with regional presets and a granular preference panel
 - Plugins for WooCommerce and the Salla App Store, with Shopify on the way
