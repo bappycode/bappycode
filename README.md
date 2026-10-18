@@ -78,6 +78,7 @@ Single-page React app for browsing popular web technologies and building your ow
 
 `React 19` `TypeScript` `Vite` `Tailwind CSS` `DaisyUI` `React Toastify`
 <br/>🌐 [Live demo](https://devstack-chi.vercel.app) · 💻 [Code](https://github.com/bappycode/DevStack.me)
+
 ---
 
 ## 🛠 Tech stack
