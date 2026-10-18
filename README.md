@@ -31,7 +31,7 @@ Marketing site and customer dashboard for a server-side tracking platform. Every
 - Request validation with Zod, data fetching with TanStack Query
 
 `Next.js 16` `React 19` `TypeScript` `MongoDB` `Better Auth` `TanStack Query` `Tailwind CSS` `Radix UI` `Zod`
-<br/>🔗 [Code](https://github.com/bappycode/Tagify-Public)
+<br/>🌐 [Live demo](https://tagify-brown.vercel.app) · 💻 [Code](https://github.com/bappycode/Tagify-Public)
 
 ### Tagify Analytics · Google Ads & GA4 data for AI assistants *(private · in development)*
 Multi-tenant SaaS that connects a business's Google Ads and GA4 accounts and exposes the data through an **MCP server**, so any AI assistant that supports MCP can query live marketing data in plain language.
@@ -52,8 +52,8 @@ Web app for browsing and comparing everyday product prices across markets in Ban
 - User sign-up, sign-in and profile with Better Auth and MongoDB
 - Loading states, custom 404 and fully responsive layout
 
-`Next.js` `React` `TypeScript` `MongoDB` `Better Auth` `Tailwind CSS` `REST API`
-<br/>🔗 [Code](https://github.com/bappycode/bazar-dor)
+`Next.js 16` `React 19` `TypeScript` `MongoDB` `Better Auth` `Tailwind CSS` `REST API`
+<br/>🌐 [Live demo](https://bazar-dor-mu.vercel.app) · 💻 [Code](https://github.com/bappycode/bazar-dor)
 
 ### FitLog · workout library and daily planner
 Gym companion app for browsing workouts, planning the day and tracking totals.
@@ -63,10 +63,21 @@ Gym companion app for browsing workouts, planning the day and tracking totals.
 - Dashboard with live exercise, minute and calorie totals, sorting and tabs
 - State persisted in localStorage, custom 404 and error pages
 
-`Next.js` `React` `Context API` `Tailwind CSS` `localStorage`
-<br/>🔗 [Code](https://github.com/bappycode/fit-log.me)
+`Next.js 16` `React 19` `Context API` `Tailwind CSS` `localStorage`
+<br/>🌐 [Live demo](https://fit-log-me.vercel.app) · 💻 [Code](https://github.com/bappycode/fit-log.me)
 
 
+
+### DevStack · tech stack builder
+Single-page React app for browsing popular web technologies and building your own stack.
+
+- Technology cards with icon, category, difficulty level and star rating
+- Add to and remove from a "Your Stack" panel, or clear it in one click
+- Data loaded with React 19's `use()` hook and `Suspense`
+- Toast feedback on every action and a responsive layout
+
+`React 19` `TypeScript` `Vite` `Tailwind CSS` `DaisyUI` `React Toastify`
+<br/>🌐 [Live demo](https://devstack-chi.vercel.app) · 💻 [Code](https://github.com/bappycode/DevStack.me)
 ---
 
 ## 🛠 Tech stack
